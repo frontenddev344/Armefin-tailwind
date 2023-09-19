@@ -1,0 +1,574 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <link href="output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="top-header | bg-[#A3CCEC]">
+        <div class="conatiner max-w-[1450px] mx-auto px-4 ">
+            <a href="mailto:connect@armefin.com" class="py-2 inline-block">connect@armefin.com</a>
+        </div>
+    </div>
+    <nav class="border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+        <div class="max-w-[1450px] flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center">
+                <img src="../images/site-logo.png" class="h-8 mr-3" alt="Flowbite Logo" />
+            </a>
+            <button data-collapse-toggle="navbar-solid-bg" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-solid-bg" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+                <ul
+                    class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-[#000] bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                        aria-current="page">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#F27949] md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">WEALTH
+                            MANAGEMENT</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">INVESTMENT
+                            BANKING</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">INSIGHTS</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                            CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="site-banner bg-[#A3CCEC]">
+        <div class="conatiner max-w-[1450px] mx-auto">
+            <div class="banner-warp flex justify-center items-center py-12">
+                <div class="banner-conent w-[60%]">
+                    <h1 class="text-[64px] font-extrabold text-[#000] leading-none mb-4">Gateway to Indian
+                        Investments & Start-ups</h1>
+                    <p class="text-[32px] font-semibold">Wealth Management & Investment Banking Solutions</p>
+                    <div class="banner-btns flex gap-3 mt-8">
+                        <a href="#"
+                            class="inline-block bg-[#000] text-[18px] text-white px-[12px] py-[18px] rounded-[10px] font-semibold transition-all duration-200 hover:bg-[#F27949] hover:text-[#000] ">INVESTMENT
+                            PLATFORMS</a>
+                        <a href="#"
+                            class="inline-block bg-[#F27949] text-[18px] text-[#000] px-[40px] py-[18px] rounded-[10px] font-semibold transition-all duration-200 hover:bg-[#000] hover:text-white">START-UP
+                            FUNDING</a>
+                    </div>
+                </div>
+                <div class="banner-img w-[40%]">
+                    <img src="../images/banner-img.svg" alt="banner-img" class="m-0 p-2">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="invesment pt-[65px] pb-[93px]">
+        <div class="conatiner max-w-[1450px] mx-auto">
+            <h2 class="section-title text-center text-[55px] font-semibold mb-8">Investment Platforms</h2>
+            <div class="grid grid-cols-2 gap-[70px]">
+                <div class="card bg-[#EEEEEE] text-center shadow-md p-4">
+                    <img src="../images/invest.svg" alt="invest" class="mx-auto">
+                    <h4 class="text-[45px] font-semibold">Indian Stocks</h4>
+                    <p class="max-w-[551px] mx-auto text-[24px]">Open an Account with our Partner Zerodha to get direct
+                        access to Indian Stocks. Take advantage of investing in the fastest-growing economy of the
+                        world.</p>
+                    <a href="#"
+                        class="card-btn inline-block px-12 py-[18px] bg-[#A3CCEC] text-[#000] font-semibold mt-[24px] mb-[43px] rounded-[10px] transition-all duration-200 hover:bg-[#000] hover:text-white">START
+                        INVESTING</a>
+                </div>
+                <div class="card bg-[#EEEEEE] text-center shadow-md p-4">
+                    <img src="../images/rocket.svg" alt="rocket" class="mx-auto">
+                    <h4 class="text-[45px] font-semibold">Start-Up Investing</h4>
+                    <p class="max-w-[551px] mx-auto text-[24px]">Armefin offers you a carefully selected pool of
+                        start-ups to invest in, empowering you to support emerging businesses and be a part of their
+                        growth story.</p>
+                    <a href="#"
+                        class="card-btn inline-block px-12 py-[18px] bg-[#A3CCEC] text-[#000] font-semibold mt-[24px] mb-[43px] rounded-[10px] transition-all duration-200 hover:bg-[#000] hover:text-white">EXPLORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wealth-management bg-[#A3CCEC] pt-[70px] pb-[100px]">
+        <div class="conatiner max-w-[1450px] mx-auto">
+            <h2 class="section-title text-center text-[55px] font-semibold mb-8">Wealth Management</h2>
+            <div class="main-content flex items-center">
+                <div class="card w-[60%]">
+                    <div class="card-content">
+                        <figure class="relative">
+                            <img src="../images/wealth-card-1.png" alt="wealth-card-1" class="">
+                            <img src="../images/wealth-card-2.png" alt="wealth-card-2"
+                                class="absolute top-[180px] right-[5%]">
+                        </figure>
+                    </div>
+                </div>
+                <div class="card w-[40%]">
+                    <div class="card-content">
+                        <h4 class="text-[40px] font-semibold">Retail Investors</h4>
+                        <p class="text-[25px] font-[500] mb-6">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.</p>
+                        <ul>
+                            <li class="flex items-center gap-[20px] mb-[50px]"><span><img src="../images/check.png"
+                                        alt="check"></span>
+                                <p class="text-[30px] font-[500]">Indian Stock (DEMAT)</p>
+                            </li>
+                            <li class="flex items-center gap-[20px] mb-[50px]"><span><img src="../images/check.png"
+                                        alt="check"></span>
+                                <p class="text-[30px] font-[500]">Indian Mutual funds</p>
+                            </li>
+                            <li class="flex items-center gap-[20px] mb-[50px]"><span><img src="../images/check.png"
+                                        alt="check"></span>
+                                <p class="text-[30px] font-[500]">Indian Mutual funds</p>
+                            </li>
+                            <li class="flex items-center gap-[20px] "><span><img src="../images/check.png"
+                                        alt="check"></span>
+                                <p class="text-[30px] font-[500]">Pre-IPO Indian shares</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content flex items-center flex-row-reverse mt-[100px]">
+                <div class="card w-[60%]">
+                    <div class="card-content">
+                        <figure class="relative">
+                            <img src="../images/wealth-card-1.png" alt="wealth-card-1" class="ms-auto">
+                            <img src="../images/wealth-card-2.png" alt="wealth-card-2"
+                                class="absolute top-[180px] left-[5%]">
+                        </figure>
+                    </div>
+                </div>
+                <div class="card w-[40%]">
+                    <div class="card-content">
+                        <h4 class="text-[40px] font-semibold">Retail Investors</h4>
+                        <p class="text-[25px] font-[500] mb-6">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.</p>
+                        <ul>
+                            <li class="flex items-center gap-[20px] mb-[50px]"><span><img src="../images/check.png"
+                                        alt="check"></span>
+                                <p class="text-[30px] font-[500]">Indian AIFs</p>
+                            </li>
+                            <li class="flex items-center gap-[20px] mb-[50px]"><span><img src="../images/check.png"
+                                        alt="check"></span>
+                                <p class="text-[30px] font-[500]">USD India Investment funds</p>
+                            </li>
+                            <li class="flex items-center gap-[20px] mb-[50px]"><span><img src="../images/check.png"
+                                        alt="check"></span>
+                                <p class="text-[30px] font-[500]">PMS</p>
+                            </li>
+                            <li class="flex items-center gap-[20px] "><span><img src="../images/check.png"
+                                        alt="check"></span>
+                                <p class="text-[30px] font-[500]">Start-up Investment ($50K)</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="info-sec mt-[145px]">
+                <div class="grid grid-cols-3 border-2 border-[#000C67] p-12">
+                    <div class="item max-w-[60%] mx-auto">
+                        <p class="text-[46.25px] font-semibold text-center text-[#000C67]">100+</p>
+                        <span class="text-[30px] font-semibold text-center text-[#000C67] block">Clients</span>
+                    </div>
+                    <div class="item max-w-[60%] mx-auto">
+                        <p class="text-[46.25px] font-semibold text-center text-[#000C67]">678</p>
+                        <span class="text-[30px] font-semibold text-center text-[#000C67] block">No. of AU</span>
+                    </div>
+                    <div class="item max-w-[60%] mx-auto">
+                        <p class="text-[46.25px] font-semibold text-center text-[#000C67]">678</p>
+                        <span class="text-[30px] font-semibold text-center text-[#000C67] block">Assets Under
+                            Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="insights-sec mt-14 mb-10">
+        <div class="conatiner max-w-[1450px] mx-auto">
+            <div class="img-sec">
+                <img src="../images/insight.png" alt="insight">
+            </div>
+            <div class="content text-center mt-[95px]">
+                <h2 class="section-title text-center text-[55px] font-semibold mb-8">Armefin Insights</h2>
+                <p class="max-w-[46%] mx-auto text-[24px] ">Our effort to provide the insights and views on the Stocks,
+                    Start-ups and the Indian economy.</p>
+                <a href="#"
+                    class="card-btn inline-block px-12 py-[18px] bg-[#A3CCEC] text-[#000] font-semibold mt-[24px]  rounded-[10px]">VIEW
+                    INSIGHTS</a>
+            </div>
+        </div>
+    </section>
+    <section class="invesment pt-[65px] pb-[93px]">
+        <div class="conatiner max-w-[1450px] mx-auto">
+            <h2 class="section-title text-center text-[55px] font-semibold mb-8">Investment Platforms</h2>
+            <div class="grid grid-cols-2 gap-[70px]">
+                <div class="card bg-[#EEEEEE] text-center shadow-md p-4">
+                    <img src="../images/money.png" alt="money" class="mx-auto">
+                    <h4 class="text-[45px] font-semibold">Investment Funds</h4>
+                    <p class="max-w-[551px] mx-auto text-[24px]">Open an Account with our Partner Zerodha to get direct
+                        access to Indian Stocks. Take advantage of investing in the fastest-growing economy of the
+                        world.</p>
+                    <a href="#"
+                        class="card-btn inline-block px-16 py-[18px] bg-[#A3CCEC] text-[#000] font-semibold mt-[24px] mb-[43px] rounded-[10px] transition-all duration-200 hover:bg-[#000] hover:text-white">KNOW
+                        MORE</a>
+                </div>
+                <div class="card bg-[#EEEEEE] text-center shadow-md p-4">
+                    <img src="../images/profile.png" alt="profile" class="mx-auto">
+                    <h4 class="text-[45px] font-semibold">Portfolio Management</h4>
+                    <p class="max-w-[551px] mx-auto text-[24px]">Armefin offers you a carefully selected pool of
+                        start-ups to invest in, empowering you to support emerging businesses and be a part of their
+                        growth story.</p>
+                    <a href="#"
+                        class="card-btn inline-block px-16 py-[18px] bg-[#A3CCEC] text-[#000] font-semibold mt-[24px] mb-[43px] rounded-[10px] transition-all duration-200 hover:bg-[#000] hover:text-white">KNOW
+                        MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="start-up mb-16 pt-4">
+        <div class="conatiner max-w-[1450px] mx-auto">
+            <div class="start-up-grid flex max-w-[95%] items-center">
+                <div class="img-sec w-[50%]">
+                    <img src="../images/startup.png" alt="start-up">
+                </div>
+                <div class="content w-[50%] py-4 px-4">
+                    <h2 class="section-title  text-[55px] font-semibold mb-8">Startup Funding</h2>
+                    <p class="text-[24px]">Armefin onboards potential Start-Ups looking for growth capital in Seed to
+                        Series B stages and connects them to the right set of Investors in India and across the globe.
+                    </p>
+                    <a href="#"
+                        class="card-btn inline-block px-16 py-[18px] bg-[#000] text-white font-semibold mt-[24px]  rounded-[10px] transition-all duration-200 hover:bg-[#F27949] hover:text-[#000]">KNOW
+                        MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="premium-sec bg-[#A3CCEC;] py-[80px]">
+        <div class="conatiner max-w-[1450px] mx-auto">
+            <h2 class="section-title text-center text-[55px] font-semibold mb-8">Premium Solutions</h2>
+            <div class="premium-grid grid grid-cols-3 pt-8">
+                <div class="item">
+                    <div
+                        class="content bg-white w-[370px] h-[370px] rounded-[50%] text-center flex flex-col justify-center mx-auto">
+                        <h4 class="text-[95px] text-[#F27949] font-semibold leading-normal">248</h4>
+                        <p class="text-[32px] font-semibold">Angel investors</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div
+                        class="content bg-white w-[370px] h-[370px] rounded-[50%] text-center flex flex-col justify-center mx-auto">
+                        <h4 class="text-[95px] text-[#F27949] font-semibold leading-normal">24</h4>
+                        <p class="text-[32px] font-semibold">Family Offices</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div
+                        class="content bg-white w-[370px] h-[370px] rounded-[50%] text-center flex flex-col justify-center mx-auto">
+                        <h4 class="text-[95px] text-[#F27949] font-semibold leading-normal">44</h4>
+                        <p class="text-[32px] font-semibold">VCs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="start-up py-[112px]">
+        <div class="conatiner max-w-[1450px] mx-auto">
+            <div class="start-up-grid flex flex-row-reverse  items-center ms-auto">
+                <div class="img-sec w-[50%]">
+                    <img src="../images/solution.png" alt="solution" class="ms-auto">
+                </div>
+                <div class="content w-[50%] py-4 ">
+                    <h2 class="section-title  text-[55px] font-semibold mb-8">Startup Funding</h2>
+                    <p class="text-[24px] ">Armefin works with established businesses which are looking to
+                        raise debt from Banks, NBFCs or Private credit from AIFs & Family Offices to fulfill their
+                        project requirements.
+                    </p>
+                    <a href="#"
+                        class="card-btn inline-block px-16 py-[18px] bg-[#000] text-white font-semibold mt-[24px]  rounded-[10px] transition-all duration-200 hover:bg-[#F27949] hover:text-[#000]">VIEW
+                        INSIGHTS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="investment-banking  bg-[#A3CCEC] py-[70px] ">
+        <div class="conatiner max-w-[1450px] mx-auto">
+            <h2 class="section-title text-center text-[55px] font-semibold mb-8">Investment Banking</h2>
+            <div class="grid grid-cols-2 gap-[70px] max-w-[90%] mx-auto">
+                <div class="card bg-[#EEEEEE] text-center shadow-md p-4 rounded-[10px]">
+                    <img src="../images/check.png" alt="check" class="mx-auto mt-[40px] mb-2">
+                    <h4 class="text-[30px] font-semibold">Investment Funds</h4>
+                    <p class="max-w-[541px] mx-auto text-[20px] mb-[60px]">Lorem Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                        to make a type specimen book.</p>
+                </div>
+                <div class="card bg-[#EEEEEE] text-center shadow-md p-4 rounded-[10px]">
+                    <img src="../images/check.png" alt="check" class="mx-auto mt-[40px] mb-2">
+                    <h4 class="text-[30px] font-semibold">Debt Funding</h4>
+                    <p class="max-w-[541px] mx-auto text-[20px] mb-[60px]">Lorem Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                        to make a type specimen book.</p>
+                </div>
+                <div class="card bg-[#EEEEEE] text-center shadow-md p-4 rounded-[10px]">
+                    <img src="../images/check.png" alt="check" class="mx-auto mt-[40px] mb-2">
+                    <h4 class="text-[30px] font-semibold">Mergers and Acquisitions</h4>
+                    <p class="max-w-[541px] mx-auto text-[20px] mb-[60px]">Lorem Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                        to make a type specimen book.</p>
+                </div>
+                <div class="card bg-[#EEEEEE] text-center shadow-md p-4 rounded-[10px]">
+                    <img src="../images/check.png" alt="check" class="mx-auto mt-[40px] mb-2">
+                    <h4 class="text-[30px] font-semibold">Business Set-up</h4>
+                    <p class="max-w-[541px] mx-auto text-[20px] mb-[60px]">Lorem Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                        to make a type specimen book.</p>
+                </div>
+            </div>
+            <div class="info-sec mt-[100px]">
+                <div class="grid grid-cols-3 border-2 border-[#000C67] p-12">
+                    <div class="item max-w-[60%] mx-auto">
+                        <p class="text-[46.25px] font-semibold text-center text-[#000C67]">100+</p>
+                        <span class="text-[30px] font-semibold text-center text-[#000C67] block">Clients</span>
+                    </div>
+                    <div class="item max-w-[60%] mx-auto">
+                        <p class="text-[46.25px] font-semibold text-center text-[#000C67]">678</p>
+                        <span class="text-[30px] font-semibold text-center text-[#000C67] block">No. of AU</span>
+                    </div>
+                    <div class="item max-w-[60%] mx-auto">
+                        <p class="text-[46.25px] font-semibold text-center text-[#000C67]">678</p>
+                        <span class="text-[30px] font-semibold text-center text-[#000C67] block">Assets Under
+                            Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="investment-bank py-[70px]">
+        <div class="conatiner max-w-[1450px] mx-auto">
+            <h2 class="section-title text-center text-[55px] font-semibold mb-8">Investment Banking</h2>
+            <div class="investment-slider responsive">
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-1.png" alt="slider-1">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-2.png" alt="slider-2">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-3.png" alt="slider-3">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-4.png" alt="slider-4">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-5.png" alt="slider-5">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-1.png" alt="slider-1">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-2.png" alt="slider-2">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-3.png" alt="slider-3">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-4.png" alt="slider-4">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-5.png" alt="slider-5">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-1.png" alt="slider-1">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-2.png" alt="slider-2">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-3.png" alt="slider-3">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-4.png" alt="slider-4">
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider-item h-[250px] flex flex-col justify-center items-center">
+                        <figure class="shadow-lg">
+                            <img src="../images/slider-5.png" alt="slider-5">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer bg-[#000C67] py-[100px] text-white">
+        <div class="conatiner max-w-[1450px] mx-auto">
+            <div class="footer-grid  grid grid-cols-4">
+                <div class="footer-item">
+                    <div class="footer-logo">
+                        <a href="#"><img src="../images/footer-logo.png" alt="footer-logo"></a>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-nav">
+                        <h5 class="text-[35px] font-[700] mb-[20px]">Navigation</h5>
+                        <ul>
+                            <li><a href="#" class="text-[24px]">Home</a></li>
+                            <li><a href="#" class="text-[24px]">Indian Stocks</a></li>
+                            <li><a href="#" class="text-[24px]">Start-up </a></li>
+                            <li><a href="#" class="text-[24px]">Investing</a></li>
+                            <li><a href="#" class="text-[24px]">Investment Funds</a></li>
+                            <li><a href="#" class="text-[24px]">Managed</a></li>
+                            <li><a href="#" class="text-[24px]">Accounts</a></li>
+                            <li><a href="#" class="text-[24px]">Startup Funding</a></li>
+                            <li><a href="#" class="text-[24px]">Debt Funding</a></li>
+                            <li><a href="#" class="text-[24px]">Insights</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="addtional-links">
+                        <h5 class="text-[35px] font-[700] mb-[20px]">Additional Links</h5>
+                        <ul>
+                            <li><a href="#" class="text-[24px]">About us</a></li>
+                            <li><a href="#" class="text-[24px]">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="abouts-us">
+                        <p class="text-[24px]">Our Offices: </p>
+                        <p class="text-[24px]">HyderabadDubai</p>
+                        <img src="../images/linkedin.png" alt="linkedin" class="mt-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom py-8">
+        <div class="conatiner max-w-[1450px] mx-auto">
+            <p class="text-center text-[24px]">© 2023 Aryaamedh Enterprises. All rights reserved</p>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+    <script>
+        $('.responsive').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+</body>
+
+</html>
